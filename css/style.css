@@ -1,0 +1,65 @@
+.cant{
+	display: inline-block;
+}
+#Capa_1{
+
+	width: 400px;
+	margin:7% ;
+	
+	display: block;
+	display: inline;
+	
+	animation: capa_1 5s ease alternate infinite;
+	&:nth-child(2) {
+	  animation-delay: 0.1s;
+	}
+	&:nth-child(3) {
+	  animation-delay: 0.2s;
+	}
+	&:nth-child(4) {
+	  animation-delay: 0.3s;
+	}
+	&:nth-child(5) {
+	  animation-delay: 0.4s;
+	}
+
+}
+#Capa_2{
+
+	width: 250px;
+	margin:5% ;
+	padding: 15px;
+	display: block;
+	display: inline;
+
+}
+#Capa_3{
+
+	animation: capa_3 6s ease-in-out;
+	width: 150px;
+	margin:3% ;
+	padding: 10px;
+	display: block;
+	display: inline;
+
+}
+@keyframes capa_1 {
+	90% {
+	  transform: scale(1.0);
+	}
+	100% {
+	  transform: scale(1.1);
+	}
+  }
+@keyframes capa_3
+{
+0%{opacity: 1;}
+10%{opacity: 1;}
+15%{opacity: 0;}
+100%{opacity: 0;}
+
+
+}
+
+
+ 
